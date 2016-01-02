@@ -1,0 +1,1 @@
+Si ya conoces el paradigma funcional, seguro habrás notado que estos mensajes son los equivalentes a las funciones: `all` y `any` respectivamente en Haskell.

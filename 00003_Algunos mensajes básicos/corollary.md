@@ -1,0 +1,3 @@
+Notemos que hay una diferencia notable entre los primeros 2 mensajes (add y remove) y los otros 2, y es que mientras los primeros al ser llamados _modifican_, o mejor dicho, tienen _**efecto**_ sobre la colección en sí (agregan o quitan un elemento del conjunto), los otros solo nos retornan información sobre mi conjunto.
+
+/*Quizas sea necesario un Link a una guía o algo donde se explique efecto de lado de un mensaje (Acción vs Pregunta, etc)*/

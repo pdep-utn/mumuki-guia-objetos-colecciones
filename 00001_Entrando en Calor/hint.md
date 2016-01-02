@@ -1,0 +1,1 @@
+Si no te acordás muy bien como se crean los objetos podes volverlo a repasar en esta guia: /*Inserte aquí link a la guia introductoria de wollok*/

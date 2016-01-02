@@ -1,0 +1,7 @@
+Muy bien ya tenemos creados nuestros objetos para nuestra colección de videojuegos!
+
+##Para pensar
+
+Vale la pena notar que todos estos objetos responden a mensajes polimórficos como: `tiempoDeJuegoRestante()`, `esViolento()` y `jugar(tiempo)` esto, por supuesto, no es casualidad. 
+
+Cuando querramos manejar a estos objetos como conjunto vamos a querer pedirles las mismas cosas (o enviar los mismos mensajes) a todos ellos. 
