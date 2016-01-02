@@ -1,0 +1,8 @@
+---
+name: Colecciones
+locale: es
+type: learning
+beta: false
+language: wollok
+id_format: '%05d'
+order: []
