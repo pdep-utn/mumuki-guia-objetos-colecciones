@@ -19,6 +19,6 @@ Además todos deben entender el mensaje `jugar` con una cantidad de tiempo, cada
 <br>
 
 * devilMayLaughVI:
-    * Es violento si `nivelDeSangre` es mayor a 5, por defecto el nivel de sangre es 3.
+    * Es violento si `nivelDeSangre` es mayor a 5, por defecto el nivel de sangre es 3, pero debe poder cambiar.
     * El tiempo restante siempre es 100.
     * Cuando se juega no se realiza ningun efecto.
