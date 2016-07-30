@@ -7,4 +7,4 @@ Para crear un conjunto que contenga por ejemplo los numeros "2, 7 y 9" lo escrib
 #{2, 7, 9}
 ```
 
-Ahora intentalo vos, creá un objeto `biblioteca` que tenga como variable `juegos` y que esté inicializada con un conjunto de los juegos antes creados: `timbaElLeon` y `carlosDuty`.
+Ahora intentalo vos, creá un objeto `biblioteca` que tenga una constante `juegos` con su correspondiente getter y que esté inicializada con un conjunto de los juegos antes creados: `timbaElLeon` y `carlosDuty`.
