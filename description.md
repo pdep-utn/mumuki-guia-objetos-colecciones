@@ -1,9 +1,4 @@
-Ya lo sabemos: los objetos son "cosas", las cuales pueden realizar determinadas tareas, es decir, tienen cierta responsabilidad y puedo pedirle realizar estas tareas mediante el envío de mensajes.
+Ya lo sabemos: un objeto es una "cosa" o _ente_ que cumple ciertas responsabilidades. Pero... ¿qué sucede cuando queremos tratar no una sola cosa, sino a varias al mismo tiempo? 
 
-Pero... ¿qué sucede ahora cuando yo quiero manejar, no una sola cosa, sino un **conjunto** de cosas? o mejor dicho una **colección** de cosas.
+¡Conozcamos a las **colecciones**!
 
-Para eso existen objetos especializados, denominados colecciones (¡qué casualidad! :P) que pueden agrupar a un conjunto de objetos, para luego poder operar sobre un elemento en particular, sobre algunos elementos seleccionados mediante un filtro, o sobre la colección como conjunto.
-
-Estos objetos nos permite modelar conjuntos o agregados de cosas, que son muy comunes en casi todos los dominios en los que podemos pensar: las piezas de un tablero de ajedrez, los integrantes de un equipo de fútbol, las líneas de una factura... ¡de todo!
-
-Bueno, basta de [cháchara](http://www.wordreference.com/sinonimos/ch%C3%A1chara\), ¡queremos acción! ¡Modelemos una biblioteca de videojuegos de nuestra consola de última generación! Seguínos...
