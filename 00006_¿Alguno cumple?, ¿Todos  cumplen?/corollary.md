@@ -1,1 +1,1 @@
-Si ya conoces el paradigma funcional, seguro habrás notado que estos mensajes son los equivalentes a las funciones: `all` y `any` respectivamente en Haskell.
+Seguro habrás notado que estos mensajes son los equivalentes a las funciones: `all` y `any` respectivamente en Haskell. La influencia funcionalosa es particularmente notoria al trabajar con colecciones, sólo que cambian los roles, porque la colección ya no es sólo un dato, es la responsable de hacer que todo suceda :)

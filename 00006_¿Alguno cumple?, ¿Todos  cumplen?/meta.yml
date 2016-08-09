@@ -1,7 +1,7 @@
 ---
 tags:
-- forAll
-- exists
+- all
+- any
 layout: editor_right
 type: problem
 extra_visible: false
