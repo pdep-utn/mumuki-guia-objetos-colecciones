@@ -44,3 +44,9 @@ object devilMayLaughVI {
     	nivelDeSangre = nivel
     }
 }
+
+class JuegoGenerico {
+	method esViolento() = true
+	method tiempoRestante() = 100
+	method jugar(){}
+}
