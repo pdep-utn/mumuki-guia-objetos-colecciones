@@ -1,23 +1,22 @@
-###Tengo una colección!, y ahora qué...?
+### Tengo una colección!, y ahora qué...?
 
 Bueno vayamos despacio, las primeras cosas que probablemente voy a querer hacer con mi conjunto serán:
 
 * Agregar o quitar un elemento de mi colección (respectivamente): 
 
->```
-miConjunto.add(elemento)
-miConjunto.remove(elemento)
-```
+> `miConjunto.add(elemento)`
+
+> `miConjunto.remove(elemento)`
 
 * Saber si un elemento está en mi conjunto: 
 
->`miConjunto.contains(elementoBuscado)`
+> `miConjunto.contains(elementoBuscado)`
 
 * Saber la cantidad de elementos: 
 
->`miConjunto.size()`
+> `miConjunto.size()`
 
-###Siguiendo con el problema planteado
+### Siguiendo con el problema planteado
 
 Ahora nos piden que agreguemos un par de funcionalidades básicas a nuestra biblioteca:
 
