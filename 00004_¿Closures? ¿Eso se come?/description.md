@@ -33,4 +33,4 @@ Un bloque siempre retorna el valor de la última sentencia ejecutada dentro del 
 
 > Los bloques incrementador y sumarAOtrosDos están disponibles para que los pruebes en la consola, ¡aprovechá para jugar evaluándolos y ver qué pasa!
 
-A ver si se entendió... asigná a la variable `jugarATimba` un bloque que reciba un solo parámetro y haga que se juegue a timbaElLeon durante ese tiempo.
+A ver si se entendió... declará la variable `jugarATimba` y asignale un bloque que reciba un solo parámetro y haga que se juegue a timbaElLeon durante ese tiempo.
