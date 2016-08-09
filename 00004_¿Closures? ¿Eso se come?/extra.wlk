@@ -11,7 +11,3 @@ object timbaElLeon {
         tiempoRestante -= tiempo
     }
 }
-
-//var unNumero = 4
-//var incrementador = { unNumero = unNumero + 1 }
-//var sumarAOtrosDos = {numeroA, numeroB => unNumero + numeroA + numeroB }

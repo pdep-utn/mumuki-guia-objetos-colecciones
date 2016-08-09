@@ -1,1 +1,1 @@
-var  = /*bloque de un parámetro tiempo que le envie jugar(tiempo) a timbaElLeon*/
+var jugarATimba = /*bloque de un parámetro tiempo que le envie jugar(tiempo) a timbaElLeon*/

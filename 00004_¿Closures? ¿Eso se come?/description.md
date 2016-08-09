@@ -4,7 +4,7 @@ Como todas las cosas en el paradigma de objetos, un bloque es... ¡un objeto! ¡
 
 Este objeto lo que representa es un _"cacho" de código_ sin ejecutar, listo para ser evaluado cuando le mandes el mensaje oportuno. 
 
-Por ejemplo:
+Por ejemplo, en un método podría tenerse:
 
 ```
 var unNumero = 4
@@ -13,11 +13,11 @@ var incrementador = { unNumero = unNumero + 1 }
 
 Después de ejecutarse estas dos líneas la variable unNumero sigue apuntando al numero 4, ya que en ningún momento le dijimos al bloque que se **aplique**, por lo tanto su código no se ejecutó.
 
-Ahora si ejecutamos:
+Si luego en otro lado se hiciera
 
-`incrementador.apply()` ó `{ unNumero = unNumero + 1 }.apply()`
+`incrementador.apply()`
 
-Esto va a producir que el código se ejecute y que la variable unNumero ahora sí apunte a 5.
+Esto haría que el código se ejecute y que la variable unNumero ahora sí apunte a 5.
 
 <br>
 
@@ -31,6 +31,6 @@ y se aplica pasando los parametros necesarios al mensaje `apply`, por ejemplo:
 
 Un bloque siempre retorna el valor de la última sentencia ejecutada dentro del bloque, por lo que puedo usarla como si fuese una función anónima (como las Expresiones lambda de funcional!) como en este último caso, en vez de para producir un efecto.
 
-> Los bloques incrementador y sumarAOtrosDos están disponibles para que los pruebes en la consola, ¡aprovechá para jugar evaluándolos y ver qué pasa!
+> Si bien es importante entender cómo es que esto funciona, lo principal va a ser saber cómo crearlos para poder pasarlos por parámetro (recordá que los bloques son objetos, no hay ningún misterio en poder hacer esto)
 
 A ver si se entendió... declará la variable `jugarATimba` y asignale un bloque que reciba un solo parámetro y haga que se juegue a timbaElLeon durante ese tiempo.
