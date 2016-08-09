@@ -12,6 +12,6 @@ object timbaElLeon {
     }
 }
 
-var unNumero = 4
-var incrementador = { unNumero = unNumero + 1 }
-var sumarAOtrosDos = {numeroA, numeroB => unNumero + numeroA + numeroB }
+//var unNumero = 4
+//var incrementador = { unNumero = unNumero + 1 }
+//var sumarAOtrosDos = {numeroA, numeroB => unNumero + numeroA + numeroB }
