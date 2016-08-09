@@ -14,6 +14,7 @@ Para el ejemplo dado anteriormente sería:
 var algunosNumeros = #{1, 2, 3, 4, 5}
 var mayoresA3 = algunosNumeros.filter({unNumero => unNumero > 3})
 ```
+> ¿Cuándo se aplica ese bloque que recibe el filter? Cuando el filter decida que hay que ejecutarlo, no te preocupes, la colección va a aplicarlo con cada uno de sus elementos por parámetro cuando corresponda durante el filtrado.
 
 ### Encontrar alguno que cumpla:
 
