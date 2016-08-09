@@ -12,6 +12,8 @@ object carlosDuty {
             cantidadDeLogros += 1
         }
     }
+
+    method cantidadDeLogros() = cantidadDeLogros
 }
 
 object timbaElLeon {
