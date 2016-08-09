@@ -2,7 +2,7 @@ Para los próximos mensajes que vamos a ver sobre las colecciones vamos a necesi
 
 Como todas las cosas en el paradigma de objetos, un bloque es... ¡un objeto! ¡Vaya sorpresa!
 
-Este objeto lo que representa es un _"cacho" de código_ sin ejecutar, listo para ser evaluado cuando yo le mande el mensaje oportuno. 
+Este objeto lo que representa es un _"cacho" de código_ sin ejecutar, listo para ser evaluado cuando le mandes el mensaje oportuno. 
 
 Por ejemplo:
 
@@ -11,9 +11,9 @@ var unNumero = 4
 var incrementador = { unNumero = unNumero + 1 }
 ```
 
-Después de ejecutarse estas dos líneas la variable unNumero sigue apuntando al numero 4, ya que en ningún momento le dije al bloque que se **aplique**, por lo tanto su código no se ejecutó.
+Después de ejecutarse estas dos líneas la variable unNumero sigue apuntando al numero 4, ya que en ningún momento le dijimos al bloque que se **aplique**, por lo tanto su código no se ejecutó.
 
-Ahora si yo ejecuto:
+Ahora si ejecutamos:
 
 `incrementador.apply()` ó `{ unNumero = unNumero + 1 }.apply()`
 
@@ -25,7 +25,7 @@ Además los bloques pueden tener parámetros para su aplicación, por ejemplo el
 
 `var sumarAOtrosDos = {numeroA, numeroB => unNumero + numeroA + numeroB }`
 
-y se aplican pasando los parametros necesarios al .apply(), por ejemplo:
+y se aplica pasando los parametros necesarios al mensaje `apply`, por ejemplo:
 
 `sumarAOtrosDos.apply(1,2)`
 
