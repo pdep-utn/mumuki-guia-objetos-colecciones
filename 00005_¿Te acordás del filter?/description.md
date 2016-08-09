@@ -11,7 +11,7 @@ Lo que usamos es el mensaje `filter` de las colecciones, que recibe un bloque co
 Para el ejemplo dado anteriormente sería:
 
 ```
-var algunosNumeros = #{1, 2, 3, 4, 5}
+var algunosNumeros = [1, 2, 3, 4, 5]
 var mayoresA3 = algunosNumeros.filter({unNumero => unNumero > 3})
 ```
 > ¿Cuándo se aplica ese bloque que recibe el filter? Cuando el filter decida que hay que ejecutarlo, no te preocupes, la colección va a aplicarlo con cada uno de sus elementos por parámetro cuando corresponda durante el filtrado.
@@ -21,7 +21,7 @@ var mayoresA3 = algunosNumeros.filter({unNumero => unNumero > 3})
 De forma parecida al filter, si lo que queremos no son **todos** aquellos elementos que cumplan la condición, sino que queremos cualquiera de ellos que cumpla utilizamos el mensaje `find`:
 
 ```
-var algunosNumeros = #{1, 2, 3, 4, 5}
+var algunosNumeros = [1, 2, 3, 4, 5]
 var numeroPares = algunosNumeros.find({unNumero => unNumero > 3})
 ```
 

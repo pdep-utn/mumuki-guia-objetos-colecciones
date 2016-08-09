@@ -1,5 +1,5 @@
 test "juegos violentos" {
-	assert.equals(#{carlosDuty}, biblioteca.juegosViolentos())
+	assert.equals([carlosDuty], biblioteca.juegosViolentos())
 }
 
 test "alguno que le falten mas de 20 horas"{
