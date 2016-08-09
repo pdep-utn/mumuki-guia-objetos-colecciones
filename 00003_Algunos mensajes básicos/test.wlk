@@ -27,12 +27,12 @@ test "si se adquieren suficientes juegos la biblioteca es de gamer"{
 	assert.that(biblioteca.esDeGamer())
 }
 
-test "carlosDuty es recomendable si esta en la biblioteca"{
-  assert.that(biblioteca.esJuegoRecomendable(carlosDuty))
-  biblioteca.borrarJuego(carlosDuty)
+test "carlosDuty es recomendable si no esta en la biblioteca"{
   assert.notThat(biblioteca.esJuegoRecomendable(carlosDuty))
+  biblioteca.borrarJuego(carlosDuty)
+  assert.that(biblioteca.esJuegoRecomendable(carlosDuty))
 }
 
-test "timbaElLeon no es recomendable porque esta en la biblioteca pero no es violento"{
-  assert.notThat(biblioteca.esJuegoRecomendable(timbaElLeon))
+test "devilMayLaughVI no es recomendable porque no es violento"{
+  assert.notThat(biblioteca.esJuegoRecomendable(devilMayLaughVI))
 }
