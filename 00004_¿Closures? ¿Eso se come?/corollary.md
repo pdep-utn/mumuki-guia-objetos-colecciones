@@ -1,1 +1,1 @@
-Aunque parezca que este nuevo concepto no tiene mucho que ver con las colecciones, en el siguiente ejercicio veremos cómo las utilizamos para poder operar con sus elementos.
+Aunque parezca que este nuevo concepto no tiene mucho que ver con las colecciones, en el siguiente ejercicio veremos cómo pueden usarse los bloques en mensajes de colecciones más complejos.
