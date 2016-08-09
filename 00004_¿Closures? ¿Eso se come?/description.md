@@ -17,7 +17,7 @@ Si en otro momento se hiciera:
 
 `incrementador.apply()`
 
-Esto haría que el código se ejecute y que la variable unNumero ahora sí apunte a 5.
+Esto haría que el código se ejecute y que la variable unNumero finalmente apunte a 5.
 
 <br>
 
