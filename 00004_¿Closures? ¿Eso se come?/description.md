@@ -13,7 +13,7 @@ var incrementador = { unNumero = unNumero + 1 }
 
 Después de ejecutarse estas dos líneas la variable unNumero sigue apuntando al numero 4, ya que en ningún momento le dijimos al bloque que se **aplique**, por lo tanto su código no se ejecutó.
 
-Si luego en otro lado se hiciera
+Si en otro momento se hiciera:
 
 `incrementador.apply()`
 
