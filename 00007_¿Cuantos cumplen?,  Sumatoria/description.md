@@ -1,29 +1,23 @@
-###¿Cuantos cumplen?
+### ¿Cuántos cumplen?
 
-Ahora como sabemos que no todos nuestros alumnos aprobaron :/, pero que alguno/s si lo hicieron :), la pregunta es, ¿Cuantos?, lo cual se responde fácilmente:
-
-```
-alumnos.count([unAlumno | unAlumno.aprobo()])
-```
-
-Es decir, el count sirve para saber cuantos elementos de mi colección cumplen la condición.
-
-###Sumatoria
-
-El mensaje `sum` sirve para hacer sumatorias del resultado de evaluar la clausura (que se pasa por parametro) con cada elemento de la colección. Entonces para conocer la suma de todas las notas de mis alumnos tengo:
+Ahora como sabemos que no todos nuestros alumnos aprobaron, pero que alguno/s si lo hicieron, la pregunta es, ¿Cuántos?, lo cual se responde fácilmente:
 
 ```
-alumnos.sum([unAlumno | unAlumno.notaEnFinal()])
+alumnos.count({unAlumno => unAlumno.aprobo()})
 ```
 
-Ahora, ¿que pasa si tengo ya una colección de numeros que son los que quiero sumar?. Fácil!:
+Es decir, el `count` sirve para saber cuantos elementos de mi colección cumplen la condición.
+
+### Sumatoria
+
+El mensaje `sum` sirve para hacer sumatorias del resultado de evaluar el bloque (que se pasa por parametro) con cada elemento de la colección. Entonces para conocer la suma de todas las notas de los alumnos se puede hacer:
 
 ```
-misNumeros.sum([unNumero | unNumero])
+alumnos.sum({unAlumno => unAlumno.notaEnFinal()})
 ```
 
 <br>
 
 ###Mira Lisa, estoy aprendiendo!:
 
-* definir: `tiempoRestantePromedio()`, osea el promedio de los tiempos restantes por cada juego.
+* definir: `promedioDeViolencia()`, que retorne la división entre la sumatoria de tiempo restante de los juegos de la biblioteca dividido por la cantidad de juegos de la misma que sean violentos.
