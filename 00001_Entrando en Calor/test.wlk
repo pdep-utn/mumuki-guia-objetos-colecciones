@@ -10,7 +10,7 @@ test "devilMayLaughVI por defecto NO es violento" {
 	assert.that(!devilMayLaughVI.esViolento())
 }
 
-test "devilMayLaughVI se vuelve violento si se juega muchas veces nivel de sangre pasa a ser 7" {
+test "devilMayLaughVI se vuelve violento si se juega muchas veces" {
  	5.times { devilMayLaughVI.jugar(10) }
 	assert.that(devilMayLaughVI.esViolento())
 }
