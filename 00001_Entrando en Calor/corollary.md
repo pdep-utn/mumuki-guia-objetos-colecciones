@@ -1,6 +1,4 @@
-Muy bien ya tenemos creados nuestros objetos para nuestra colección de videojuegos!
-
-##Para pensar
+¡Ya tenemos creados nuestros objetos para nuestra colección de videojuegos!
 
 Vale la pena notar que todos estos objetos responden a mensajes polimórficos como: `tiempoDeJuegoRestante()`, `esViolento()` y `jugar(tiempo)` esto, por supuesto, no es casualidad. 
 
