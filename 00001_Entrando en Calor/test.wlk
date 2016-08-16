@@ -11,7 +11,7 @@ test "devilMayLaughVI por defecto NO es violento" {
 }
 
 test "devilMayLaughVI se vuelve violento si se juega muchas veces nivel de sangre pasa a ser 7" {
- 	5.times { devilMayLaughVI.jugar() }
+ 	5.times { devilMayLaughVI.jugar(10) }
 	assert.that(devilMayLaughVI.esViolento())
 }
 
