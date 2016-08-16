@@ -1,3 +1,3 @@
-Excelente! Ya tenemos una biblioteca con todos nuestros juegos.
+¡Excelente! Ya tenemos una biblioteca con todos nuestros juegos.
 
-A partir de ahora vamos a ver que operaciones podemos realizar con nuestro conjunto.
+Veamo operaciones podemos realizar con nuestro conjunto...

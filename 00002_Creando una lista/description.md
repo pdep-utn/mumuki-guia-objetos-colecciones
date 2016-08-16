@@ -6,4 +6,4 @@ La forma más simple de modelarla es utilizando una _lista_ de objetos: una _col
 [2, 7, 9]
 ```
 
-> Veamos si se entiende: creá un objeto `biblioteca` que tenga un atributo `juegos` con su correspondiente getter. Inicialmente la biblioteca debe estar conformada por los juegos `timbaElLeon` y `carlosDuty` que creamos anteriormente. 
+> Veamos si se entiende: creá un objeto `biblioteca` que tenga un atributo `juegos` con su correspondiente getter. Inicialmente la biblioteca debe estar conformada por los juegos `timbaElLeon` y `carlosDuty` que creamos anteriormente. ¡
