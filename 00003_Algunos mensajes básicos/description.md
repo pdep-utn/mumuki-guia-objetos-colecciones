@@ -14,10 +14,10 @@ numerosDeLaSuerte.contains(5) //devuelve true, porque lo contiene`
 numerosDeLaSuerte.size() //devuelve 5, porque contiene al 2, 5 y 9
 ```
 
-> Veamos si se entiende: tenemos que agregar las siguientes funcionalidades a nuestra biblioteca: 
+> ¡Veamos si se entiende! Nuestra biblioteca maneja `puntos`, y necesitamos agregar las siguientes funcionalidades:
 > 
-> * `adquirirJuego(unJuego)`: ademas de agregarlo a mi conjunto de juegos, se suman 150 puntos a mi biblioteca.
-> * `borrarJuego(unJuego)`: solo quita el juego de mi conjunto.
-> * `esDeGamer()`: se cumple si la biblioteca tiene más de 1000 puntos y si tengo más de 5 juegos.
-> * `esJuegoRecomendable(unJuego)`: lo es si no lo tengo en mi colección de juegos y `esViolento`
+> * `adquirirJuego(unJuego)`: agrega el juego a la biblioteca, y le suma 150 puntos.
+> * `borrarJuego(unJuego)`: quita un juego de la biblioteca, sin perder puntos.
+> * `esDeGamer()`: se cumple si la biblioteca tiene más de 1000 puntos y si más de 5 juegos.
+> * `esJuegoRecomendable(unJuego)`: lo es si no está en la biblioteca y `esViolento`
 > * `puntos()`: nos dice cuantos puntos tiene la biblioteca
