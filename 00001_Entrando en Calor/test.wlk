@@ -32,8 +32,12 @@ test "tiempo restante al jugar timbaElLeon" {
 	assert.equals(30, timbaElLeon.tiempoRestante())
 }
 
-test "tiempo restante al jugar al devilMayLaughVI"{
+test "inicialmente el tiempo restante del devilMayLaughVI es 100"{
 	assert.equals(100, devilMayLaughVI.tiempoRestante())
+	
+}
+
+test "si se juega dos veces al devilMayLaughVI, su tiempo restante sigue siendo 100" {
 	timbaElLeon.jugar(20)
 	timbaElLeon.jugar(10)
 	assert.equals(100, devilMayLaughVI.tiempoRestante())
