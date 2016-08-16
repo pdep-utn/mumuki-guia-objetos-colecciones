@@ -29,6 +29,4 @@ sumarAOtrosDos.apply(1,2)
 
 Un bloque siempre retorna el valor de la última sentencia ejecutada dentro del bloque, por lo que puedo usarla como si fuese una función anónima (como las Expresiones lambda de funcional!) como en este último caso, en vez de para producir un efecto.
 
-> Si bien es importante entender cómo es que esto funciona, lo principal va a ser saber cómo crearlos para poder pasarlos por parámetro (recordá que los bloques son objetos, no hay ningún misterio en poder hacer esto)
-
-A ver si se entendió... declará la variable `jugarATimba` y asignale un bloque que reciba un solo parámetro y haga que se juegue a timbaElLeon durante ese tiempo.
+> A ver si se entendió... declará la variable `jugarATimba` y asignale un bloque que reciba un solo parámetro y haga que se juegue a timbaElLeon durante ese tiempo.
