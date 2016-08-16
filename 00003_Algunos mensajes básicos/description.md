@@ -20,4 +20,4 @@ numerosDeLaSuerte.size() //devuelve 5, porque contiene al 2, 5 y 9
 > * `borrarJuego(unJuego)`: quita un juego de la biblioteca, sin perder puntos.
 > * `esDeGamer()`: se cumple si la biblioteca tiene más de 1000 puntos y si más de 5 juegos.
 > * `esJuegoRecomendable(unJuego)`: lo es si no está en la biblioteca y `esViolento`
-> * `puntos()`: nos dice cuantos puntos tiene la biblioteca
+> * `puntos()`: nos dice cuantos puntos tiene la biblioteca. Inicialmente son 150. 
