@@ -1,19 +1,13 @@
-Para los próximos mensajes que vamos a ver sobre las colecciones vamos a necesitar primero entender un nuevo concepto, los Closures (Clausura en español, también conocidos como bloques).
+¡Pausa! :hand: Antes de continuar, necesitamos conocer a unos nuevos amigos: los _bloques_.
 
-Como todas las cosas en el paradigma de objetos, un bloque es... ¡un objeto! ¡Vaya sorpresa!
-
-Este objeto lo que representa es un _"cacho" de código_ sin ejecutar, listo para ser evaluado cuando le mandes el mensaje oportuno. 
-
-Por ejemplo, en un método podría tenerse:
+Éstos son **objetos** que representan una secuencia de envíos de mensajes, sin ejecutar, lista para ser evaluado cuando corresponda. Por ejemplo, en un método podría tenerse:
 
 ```wollok
 var unNumero = 4
 var incrementador = { unNumero = unNumero + 1 }
 ```
 
-Después de ejecutarse estas dos líneas la variable unNumero sigue apuntando al numero 4, ya que en ningún momento le dijimos al bloque que se **aplique**, por lo tanto su código no se ejecutó.
-
-Si en otro momento se hiciera:
+Después de ejecutarse estas dos líneas la variable unNumero sigue apuntando al numero 4, ya que en ningún momento le dijimos al bloque que se **aplique**, por lo tanto su código no se ejecutó. Si en otro momento se hiciera:
 
 ```wollok
 incrementador.apply()`
