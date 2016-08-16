@@ -1,6 +1,6 @@
 ¡Modelemos una biblioteca de videojuegos! :video_game:
 
-Para empezar, vamos a crear los 3 videojuegos que van a pertenecer a esta colección, de los que nos interesa saber su `tiempoRestante` y si `esViolento`. Además todos deben entender el mensaje `jugar`, que toma una cierta cantidad de tiempo:
+Para empezar, vamos a crear los 3 videojuegos que van a pertenecer a esta colección: 
 
 * `carlosDuty`:
     * Es violento.
@@ -13,3 +13,5 @@ Para empezar, vamos a crear los 3 videojuegos que van a pertenecer a esta colecc
     * Es violento si `nivelDeSangre` es mayor a 5, por defecto el nivel de sangre es 3, pero debe poder cambiar.
     * El tiempo restante siempre es 100.
     * Cuando se juega no se realiza ningun efecto.
+
+> Declará estos tres objetos, de forma que entiendan los mensaje, `tiempoRestante`, `esViolento` y `jugar`
