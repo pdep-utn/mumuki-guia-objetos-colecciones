@@ -6,7 +6,7 @@ Este objeto lo que representa es un _"cacho" de código_ sin ejecutar, listo par
 
 Por ejemplo, en un método podría tenerse:
 
-```
+```wollok
 var unNumero = 4
 var incrementador = { unNumero = unNumero + 1 }
 ```
@@ -15,19 +15,23 @@ Después de ejecutarse estas dos líneas la variable unNumero sigue apuntando al
 
 Si en otro momento se hiciera:
 
-`incrementador.apply()`
+```wollok
+incrementador.apply()`
+```
 
 Esto haría que el código se ejecute y que la variable unNumero finalmente apunte a 5.
 
-<br>
-
 Además los bloques pueden tener parámetros para su aplicación, por ejemplo el siguiente recibe dos parámetros:
 
-`var sumarAOtrosDos = {numeroA, numeroB => unNumero + numeroA + numeroB }`
+```wollok
+var sumarAOtrosDos = {numeroA, numeroB => unNumero + numeroA + numeroB }
+```
 
 y se aplica pasando los parametros necesarios al mensaje `apply`, por ejemplo:
 
-`sumarAOtrosDos.apply(1,2)`
+```wollok
+sumarAOtrosDos.apply(1,2)
+```
 
 Un bloque siempre retorna el valor de la última sentencia ejecutada dentro del bloque, por lo que puedo usarla como si fuese una función anónima (como las Expresiones lambda de funcional!) como en este último caso, en vez de para producir un efecto.
 
