@@ -1,4 +1,4 @@
-_¡Tengo una colección! ¿Y ahora qué...?_
+_¡Tengo una colección! ¿Y ahora qué...?_ :scream:
 
 Algo fácil que podemos hacer es agregar o quitar un elemento del conjunto:
 
