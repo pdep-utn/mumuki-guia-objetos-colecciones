@@ -1,4 +1,4 @@
-¡Modelemos una biblioteca de videojuegos de nuestra consola de última generación! :video_game:
+¡Modelemos una biblioteca de videojuegos! :video_game:
 
 Lo primero que se nos pide es crear los videojuegos que van a pertenecer a esta colección, por ahora solo nos van a interesar 3 juegos distintos. 
 De ellos nos interesa saber principalmente el `tiempoRestante` y si `esViolento`.
