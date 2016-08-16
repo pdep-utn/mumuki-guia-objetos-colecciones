@@ -7,7 +7,7 @@ algunosNumeros.find({unNumero => unNumero > 3})
 // porque es el primero que cumple la condición. 
 ```
 
-:warning: El find devuelve **sólo** uno un elemento, no una colección. Y si por el contrario no hubiese ninguno que cumpla en la condición, el programa *explotará* :bomb:
+:warning: El find devuelve **sólo** un elemento, no una colección. Y si por el contrario no hubiese ninguno que cumpla en la condición, el programa *explotará* :bomb:
 
 
 > Veamos si queda claro: hace que la biblioteca entienda`unoConMasHorasRestantesQue(unasHoras)`, que retorna algún juego en la biblioteca que tenga más que unas ciertas horas restantes indicadas.
