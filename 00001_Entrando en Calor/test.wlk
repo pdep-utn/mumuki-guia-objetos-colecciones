@@ -15,8 +15,11 @@ test "devilMayLaughVI se vuelve violento si se juega muchas veces nivel de sangr
 	assert.that(devilMayLaughVI.esViolento())
 }
 
-test "tiempo restante al jugar carlosDuty" {
-	assert.equals(30, carlosDuty.tiempoRestante())
+test "initialmente el tiempo del carlosDuty es 30" {
+  assert.equals(30, carlosDuty.tiempoRestante())
+}
+
+test "si se juega al carlosDuty por 14 horas, su tiempo restante es 29" {
 	carlosDuty.jugar(10)
 	carlosDuty.jugar(3)
 	carlosDuty.jugar(1)
