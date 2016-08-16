@@ -1,4 +1,4 @@
-De forma parecida al filter, si lo que queremos no son **todos** aquellos elementos que cumplan la condición, sino que queremos cualquiera de ellos que cumpla utilizamos el mensaje `find`:
+De forma parecida al `filter`, si lo que queremos no son **todos** aquellos elementos que cumplan la condición, sino que queremos cualquiera de ellos que cumpla utilizamos el mensaje `find`:
 
 ```wollok
 var algunosNumeros = [1, 2, 3, 4, 5]
