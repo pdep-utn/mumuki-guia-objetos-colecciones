@@ -1,9 +1,6 @@
 ¡Modelemos una biblioteca de videojuegos! :video_game:
 
-Lo primero que se nos pide es crear los videojuegos que van a pertenecer a esta colección, por ahora solo nos van a interesar 3 juegos distintos. 
-De ellos nos interesa saber principalmente el `tiempoRestante` y si `esViolento`.
-
-Además todos deben entender el mensaje `jugar` con una cantidad de tiempo, cada uno hace diferentes cosas:
+Para empezar, vamos a crear los 3 videojuegos que van a pertenecer a esta colección, de los que nos interesa saber su `tiempoRestante` y si `esViolento`. Además todos deben entender el mensaje `jugar`, que toma una cierta cantidad de tiempo:
 
 * `carlosDuty`:
     * Es violento.
