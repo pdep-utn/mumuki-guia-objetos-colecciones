@@ -1,6 +1,6 @@
 Ahora es momento de crear el objeto del que tanto vaníamos hablado: la biblioteca de videjuegos.
 
-La forma más simple de modelarla es utilizando una _lista_ de objetos: una _colección_ ordenada de objetos, la cual admite repetidos. Por ejemplo, la lista de números "2, 7 y 9" se escribe así:
+La forma más simple de modelarla es utilizando una _lista_ de objetos: una _colección_ ordenada de objetos, la cual admite repetidos. Por ejemplo, la lista de números 2, 7 y 9 se escribe así:
 
 ```
 [2, 7, 9]
