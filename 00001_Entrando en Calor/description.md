@@ -2,7 +2,7 @@
 
 * `carlosDuty`: 
     * Es violento.
-    * El tiempo restante de juego es 30 - `cantidadDeLogros` * 0,5.
+    * El tiempo restante de juego es `30 - cantidadDeLogros * 0,5`.
     * Si se lo juega por más de 2 horas seguidas, se le suma un logro a su cantidad.
 * `timbaElLeon`:
     * No es violento.
