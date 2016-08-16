@@ -1,8 +1,17 @@
-test "juegos violentos" {
+test "carlosDuty es violento" {
 	assert.that(carlosDuty.esViolento())
-	assert.notThat(timbaElLeon.esViolento())
-	assert.notThat(devilMayLaughVI.esViolento())
-	devilMayLaughVI.nivelDeSangre(7)
+}
+
+test "timbaElLeon no es violento" {
+	assert.that(!timbaElLeon.esViolento())
+}
+
+test "devilMayLaughVI por defecto NO es violento" {
+	assert.that(!devilMayLaughVI.esViolento())
+}
+
+test "devilMayLaughVI se vuelve violento si se juega muchas veces nivel de sangre pasa a ser 7" {
+ 	5.times { devilMayLaughVI.jugar() }
 	assert.that(devilMayLaughVI.esViolento())
 }
 

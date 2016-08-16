@@ -8,8 +8,8 @@
     * No es violento.
     * El tiempo restante de juego se disminuye a medida que se juega (en el tiempo jugado), antes de empezar a jugar este es 50.
 * `devilMayLaughVI`:
-    * Es violento si `nivelDeSangre` es mayor a 5, por defecto el nivel de sangre es 3, pero debe poder cambiar.
+    * Es violento si `nivelDeSangre` es mayor a 5. Por defecto el nivel de sangre es 3.
     * El tiempo restante siempre es 100.
-    * Cuando se juega no se realiza ningun efecto.
+    * Cuando se juega, se incrementa su nivel de sangre. 
 
-> Declará estos tres objetos, de forma que entiendan los mensaje, `tiempoRestante`, `esViolento` y `jugar`
+> Declará estos tres objetos, de forma que entiendan los mensaje, `tiempoRestante`, `esViolento` y `jugar`. 
