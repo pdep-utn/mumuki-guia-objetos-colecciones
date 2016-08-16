@@ -1,6 +1,4 @@
-¡Modelemos una biblioteca de videojuegos! :video_game:
-
-Para empezar, vamos a crear los 3 videojuegos que van a pertenecer a esta colección: 
+¡Modelemos una biblioteca de videojuegos! :video_game: Para empezar, vamos a crear 3 videojuegos:
 
 * `carlosDuty`:
     * Es violento.
