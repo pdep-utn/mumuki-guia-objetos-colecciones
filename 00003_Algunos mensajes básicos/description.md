@@ -11,7 +11,7 @@ También podemos saber saber si un elemento está en el conjunto y la cantidad d
 
 ```wollok
 numerosDeLaSuerte.contains(5) //devuelve true, porque lo contiene`
-numerosDeLaSuerte.size() //devuelve 5, porque contiene al 2, 5 y 9
+numerosDeLaSuerte.size() //devuelve 3, porque contiene al 2, 5 y 9
 ```
 
 > ¡Veamos si se entiende! Nuestra biblioteca maneja `puntos`, y necesitamos agregar las siguientes funcionalidades:
