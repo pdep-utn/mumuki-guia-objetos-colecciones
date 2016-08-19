@@ -19,7 +19,7 @@ test "inicialmente el tiempo del carlosDuty es 30" {
   assert.equals(30, carlosDuty.tiempoRestante())
 }
 
-test "si se juega al carlosDuty por 7 horas en dos tramos distintos, su tiempo restante es 29.5" {
+test "si se juega al carlosDuty por 7 horas en dos tramos distintos, su tiempo restante es 29" {
 	carlosDuty.jugar(7)
 	carlosDuty.jugar(7)
 	assert.equals(29, carlosDuty.tiempoRestante())
