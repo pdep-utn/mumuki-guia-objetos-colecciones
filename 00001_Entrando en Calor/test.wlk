@@ -25,6 +25,12 @@ test "si se juega al carlosDuty por 7 horas en dos tramos distintos, su tiempo r
 	assert.equals(29, carlosDuty.tiempoRestante())
 }
 
+test "si se juega al carlosDuty por dos periodos de una hora su tiempo restante sigue siendo 30" {
+  carlosDuty.jugar(1)
+	carlosDuty.jugar(1)
+	assert.equals(30, carlosDuty.tiempoRestante())
+}
+
 test "tiempo restante al jugar timbaElLeon" {
 	assert.equals(50, timbaElLeon.tiempoRestante())
 	timbaElLeon.jugar(20)
