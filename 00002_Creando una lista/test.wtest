@@ -1,4 +1,4 @@
-test "la biblioteca debe contener al carlosDuty" {
+test "La Biblioteca debe contener al CarlosDuty" {
 	assert.that(biblioteca.juegos().contains(carlosDuty))
 }
 

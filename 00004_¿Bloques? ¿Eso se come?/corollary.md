@@ -1,1 +1,1 @@
-Aunque parezca que este nuevo concepto no tiene mucho que ver con las colecciones, en el siguiente ejercicio veremos cómo pueden usarse los bloques en mensajes de colecciones más complejos.
+Quizá estés pensando, _¿qué tiene que ver todo esto con las colecciones?_ ¡Paciencia! :expressionless: En el siguiente ejercicio veremos cómo combinar colecciones y bloques para poder utilizar mensajes más complejos.
