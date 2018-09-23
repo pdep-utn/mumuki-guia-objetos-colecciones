@@ -1,7 +1,7 @@
 ---
 tags:
-- count
-- sum
+- filter
+- detect
 layout: input_right
 editor: code
 type: problem
@@ -9,3 +9,4 @@ extra_visible: false
 teacher_info: ''
 manual_evaluation: false
 choices: []
+name: "¿Te acordás del filter?"

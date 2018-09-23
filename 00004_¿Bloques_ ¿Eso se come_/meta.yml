@@ -1,11 +1,11 @@
 ---
 tags:
-- filter
-- detect
-layout: input_right
+- clausuras
+layout: input_bottom
 editor: code
 type: problem
 extra_visible: false
 teacher_info: ''
 manual_evaluation: false
 choices: []
+name: "¿Bloques? ¿Eso se come?"
