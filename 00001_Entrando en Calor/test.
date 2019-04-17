@@ -11,7 +11,7 @@ test "devilMayLaughVI por defecto NO es violento" {
 }
 
 test "devilMayLaughVI se vuelve violento si se juega muchas veces" {
- 	5.times { devilMayLaughVI.jugar(10) }
+ 	5.times { x=> devilMayLaughVI.jugar(10) }
 	assert.that(devilMayLaughVI.esViolento())
 }
 
