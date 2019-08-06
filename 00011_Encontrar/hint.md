@@ -1,0 +1,1 @@
+Recordá que los juegos entienden el mensaje `tiempoRestante()` que retorna una cantidad de horas. :watch:
