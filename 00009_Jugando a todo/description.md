@@ -3,8 +3,7 @@ Hasta ahora todos los mensajes que vimos de colecciones, salvo `add` y `remove`,
 Por ejemplo, si queremos que todos los alumnos firmen la materia (lo cual actualiza el estado de cursada del alumno de alguna forma), podríamos hacer:
 
 ```wollok
-misAlumnos
-  .forEach({unAlumno => unAlumno.firmar(pdep)})
+misAlumnos.forEach({unAlumno => unAlumno.firmar(pdep)})
 ```
 
 Notar que en realidad no se produce un efecto sobre la colección como tal, que sigue conteniendo los mismos objetos que antes, sino que fueron estos objetos los que se vieron modificados. 
@@ -18,5 +17,6 @@ Es recomendable revisar cuál es la intención final con la que estamos usando u
 Ya averiguamos muchas cosas a partir de los juegos de la biblioteca, ahora lo que queremos es...
 
 ![play all the games](http://s2.quickmeme.com/img/eb/eb453777d7faf7608ba6fca4b24a4ea7374756b53813895b7273bd7076c16cc0.jpg)
+![play all the games](http://www.quickmeme.com/img/eb/eb453777d7faf7608ba6fca4b24a4ea7374756b53813895b7273bd7076c16cc0.jpg)
 
 Definile `jugarATodo()` a la biblioteca para jugar a cada los juegos durante 5 horas. Recordá que los juegos entienden `jugar(tiempo)`.
