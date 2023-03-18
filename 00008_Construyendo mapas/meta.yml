@@ -5,7 +5,8 @@ layout: input_right
 editor: code
 type: problem
 extra_visible: false
+teacher_info: ''
 manual_evaluation: false
 progressive_expectations: false
 choices: []
-name: El viejo y querido map
+name: Construyendo mapas

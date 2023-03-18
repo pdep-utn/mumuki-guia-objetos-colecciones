@@ -1,0 +1,1 @@
+Estos mensajes son equivalentes a funciones que existen en otros lenguajes (por ejemplo, en Haskell se llaman `all` y `any` respectivamente). La diferencia principal es que no se recibe por parámetro el conjunto de datos, sino que desde la perspectiva _objetosa_, la colección es el objeto responsable de contener los datos y hacer que todo suceda :smile:
