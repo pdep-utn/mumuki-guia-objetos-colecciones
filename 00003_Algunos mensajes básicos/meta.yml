@@ -1,13 +1,11 @@
 ---
-tags:
-- add
-- remove
-- size
-- contains
+locale: es
+tags: []
 layout: input_bottom
 editor: code
 type: problem
 extra_visible: false
 manual_evaluation: false
+progressive_expectations: false
 choices: []
 name: Algunos mensajes básicos

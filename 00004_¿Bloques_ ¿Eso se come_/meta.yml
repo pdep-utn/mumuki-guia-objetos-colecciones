@@ -1,10 +1,11 @@
 ---
-tags:
-- clausuras
+locale: es
+tags: []
 layout: input_bottom
 editor: code
 type: problem
 extra_visible: false
 manual_evaluation: false
+progressive_expectations: false
 choices: []
 name: "¿Bloques? ¿Eso se come?"
