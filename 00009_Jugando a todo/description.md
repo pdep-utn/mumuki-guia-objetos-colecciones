@@ -16,7 +16,6 @@ Es recomendable revisar cuál es la intención final con la que estamos usando u
 
 Ya averiguamos muchas cosas a partir de los juegos de la biblioteca, ahora lo que queremos es...
 
-![play all the games](http://s2.quickmeme.com/img/eb/eb453777d7faf7608ba6fca4b24a4ea7374756b53813895b7273bd7076c16cc0.jpg)
-![play all the games](http://www.quickmeme.com/img/eb/eb453777d7faf7608ba6fca4b24a4ea7374756b53813895b7273bd7076c16cc0.jpg)
+![play all the games](https://raw.githubusercontent.com/pdep-utn/mumuki-guia-objetos-colecciones/master/assets/allTheGames_1679183997812.jpg)
 
-Definile `jugarATodo()` a la biblioteca para jugar a cada los juegos durante 5 horas. Recordá que los juegos entienden `jugar(tiempo)`.
+Definile `jugarATodo()` a la biblioteca para jugar a cada uno de los juegos durante 5 horas. Recordá que los juegos entienden `jugar(tiempo)`.
